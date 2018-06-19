@@ -33,6 +33,13 @@ def get_Tmall_comment(commentID_list, requestDict, comments_collection, product_
         maxPage = maxPage_num_control
 
     cunzai_count = 0
+    # 增加判断条件呀
+    if maxPage < start_num:
+        log_dict = {'type': '跳出', 'product_index': product_index, 'current_page': maxPage,
+                    'log_time': time.time()}
+        log_collection.insert(log_dict)
+        # os.system('say "attention please,  your program has Exception  "')
+        raise
 
     for page_num2 in range(start_num, int(maxPage) + 1):  # 最多只能爬取99页评论
         contents = get_one_page_comment(commentID_list, item_id, shop_id, title, catagory, page_num2, comments_collection,

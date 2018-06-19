@@ -15,7 +15,7 @@ ALIYUN_MYSQL_PASSWORD = 'gdueyagcdmb'
 
 #mongodb 配置
 
-mongodb_host = 'localhost'
+mongodb_host = '47.94.6.53'
 mongodb_port = 27017
 mongodb_username = None
 mongodb_password = None
@@ -43,7 +43,7 @@ config = {
         'log_file_name_tmall_my': 'tmall_my.log',
         'log_file_name_tmall_kqhl': 'tmall_kqhl.log',
         'log_file_name_tmall_jydq': 'tmall_jydq.log',
-        'log_level': 'info'     # support debug,info, warn
+        'log_level': 'debug'     # support debug,info, warn
           }
 
 # collection_name_list :
@@ -64,7 +64,11 @@ COLLECTION_NAME_LIST_XY = [
         's_TM_XY_衣物护理柔顺剂液'
 ]
 COLLECTION_NAME_LIST_XF = [
-
+        's_TM_XF_洗发水',
+        's_TM_XF_护发素乳',
+        's_TM_XF_洗护套装',
+        's_TM_XF_精华乳油',
+        's_TM_XF_发膜',
         's_TM_XF_营养水'
 ]
 COLLECTION_NAME_LIST_HF = [
