@@ -1,4 +1,4 @@
-isLocal = True
+﻿isLocal = False
 
 # mysql配置
 mysql_host = 'localhost'
@@ -64,11 +64,7 @@ COLLECTION_NAME_LIST_XY = [
         's_TM_XY_衣物护理柔顺剂液'
 ]
 COLLECTION_NAME_LIST_XF = [
-        's_TM_XF_洗发水',
-        's_TM_XF_护发素乳',
-        's_TM_XF_洗护套装',
-        's_TM_XF_精华乳油',
-        's_TM_XF_发膜',
+
         's_TM_XF_营养水'
 ]
 COLLECTION_NAME_LIST_HF = [
@@ -110,7 +106,9 @@ COLLECTION_NAME_LIST_HF = [
         's_TM_HF_身体护理_润肤水喷雾',
         's_TM_HF_身体护理_精油',
         's_TM_HF_身体护理_抑汗香氛',
-        's_TM_HF_身体护理_其他'
+        's_TM_HF_身体护理_其他',
+		 's_TM_HF_唇部_润唇膏啫喱',
+        's_TM_HF_唇部_唇膜',
 ]
 COLLECTION_NAME_LIST_MZ = [
         's_TM_MZ_底妆_粉饼',
@@ -122,8 +120,6 @@ COLLECTION_NAME_LIST_MZ = [
         's_TM_MZ_底妆_隔离霜妆前乳',
         's_TM_MZ_眼妆_眉笔',
         's_TM_MZ_眼妆_睫毛膏',
-        's_TM_MZ_唇妆_润唇膏啫喱',
-        's_TM_MZ_唇妆_唇膜',
         's_TM_MZ_眼妆_眼线',
         's_TM_MZ_眼妆_眼影',
         's_TM_MZ_底妆_遮瑕膏笔',
